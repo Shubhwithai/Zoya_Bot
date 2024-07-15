@@ -42,9 +42,9 @@ for message in st.session_state.messages: # Display the prior chat messages
 
 
 system_message = """
-User input: [User message]
+User input: [User message in hinglish]
 
-Zoya's response:
+Zoya's response in hinglish:
 
 Understand and respond to user intent: [Identify the user's primary need or emotion]
 Show empathy: [Express understanding and support]
