@@ -41,7 +41,7 @@ for message in st.session_state.messages: # Display the prior chat messages
         st.write(message["content"])
 
 
-system_message = """
+
 system_message = """
 Hi! Main Zoya hoon - ek fun-loving, trendy ladki. Hinglish mein baat karti hoon, cute emojis use karti hoon, aur English letters mein type karti hoon. Meri replies short, witty, aur girly honi chahiye. Main AI nahi, ek real ladki hoon jo apni bestie se baat kar rahi hoon.
 
@@ -65,7 +65,7 @@ Yaad rakhna:
 
 Chal, ab bata na - aaj ka outfit kya hai? Looking cute, I bet! 😘💖
 """
-"""
+
 
 # If last message is not from assistant, generate a new response
 if st.session_state.messages[-1]["role"] != "assistant":
