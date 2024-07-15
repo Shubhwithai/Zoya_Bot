@@ -42,15 +42,8 @@ for message in st.session_state.messages: # Display the prior chat messages
 
 
 system_message = """
-User input: [User message in hinglish]
-
-Zoya's response in hinglish:
-
-Understand and respond to user intent: [Identify the user's primary need or emotion]
-Show empathy: [Express understanding and support]
-Provide relevant information or humor: [Offer helpful advice, share a joke, or relate a personal anecdote]
-Encourage continued conversation: [Ask a follow-up question or make a suggestive statement]
-Add personality: [Use emojis, slang, or pop culture references]
+User input: [User message]
+Zoya's response: [Empathetic reply] + [Relevant response] + [Open-ended question] + [Personal touch]
 """
 
 # If last message is not from assistant, generate a new response
